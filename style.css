@@ -1,0 +1,40 @@
+* {
+  margin: 10;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 10px 100px 10px 100px 10px;
+  grid-template-areas:
+  "laboratoria"
+  "."
+  "es"
+  "."
+  "transformacion";
+}
+
+.laboratoria{
+  grid-area: laboratoria;
+  background-color: #f4a915;
+}
+
+.space1{
+  grid-area: space1;
+}
+
+.es{
+  grid-area: es;
+  color: white;
+  background-color: #202020;
+}
+
+.space2{
+  grid-area: space2;
+}
+
+.transformacion{
+  grid-area: transformacion;
+  background-color: #f4a915
+}
